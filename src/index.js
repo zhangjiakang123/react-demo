@@ -221,8 +221,8 @@ class Child extends React.Component{
     return(
       <div>
         <button onClick={this.fn1.bind(this,111)}>点击我fn1</button>
-      <button onClick={this.fn2}>点击我fn2</button>
-      <button onClick={e =>this.fn3(123,e)}>点击我fn3</button>
+        <button onClick={this.fn2}>点击我fn2</button>
+        <button onClick={e =>this.fn3(123,e)}>点击我fn3</button>
       </div>
       
     )
